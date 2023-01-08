@@ -66,6 +66,7 @@ while(True):
         bx = (minc, maxc, maxc, minc, minc)
         by = (minr, minr, maxr, maxr, minr)
         plt.plot(bx, by, '-y', linewidth=1) #draw plot
+    plt.show()
 
     ##2.3 Assign class to features
 
